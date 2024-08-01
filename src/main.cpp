@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdlib>
 #include <ctime>
 #include "../resources/glfw/include/GLFW/glfw3.h"
 
@@ -72,8 +71,6 @@ int main()
 
     while (!glfwWindowShouldClose(window))
     {   
-        double currentTime = glfwGetTime();
-
         glClearColor(0.0, 0.0, 0.0, 1.0);
         glClear(GL_COLOR_BUFFER_BIT);
 
